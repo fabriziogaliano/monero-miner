@@ -1,7 +1,8 @@
 # monero-miner
 
-Ovverride the run command with your own information:
+# Support CPU mining using Cryptonight algo, this image it's based on [xmrig][1]
 
+Ovverride the run command with your own information:
 ```
 docker run --name monero-miner \
 fabriziogaliano/monero-miner \
@@ -12,3 +13,7 @@ fabriziogaliano/monero-miner \
 --max-cpu-usage=100 \
 --donate-level=1
 ```
+
+Feel free to increase Donate Level ;)
+
+[1]:https://github.com/xmrig/xmrig/
