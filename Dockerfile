@@ -3,8 +3,8 @@ LABEL Fabrizio Galiano <fabrizio.galiano@hotmail.com>
 
 RUN apt-get update && apt-get install -y wget
 
-ENV XMRIG_VERSION=2.6.2
-ENV XMRIG_SHA256=73477913d038793ec6655f8dc4d5139ce4543671ea52e1102ee3967ac3525c87
+ENV XMRIG_VERSION=2.8.1
+#ENV XMRIG_SHA256=
 
 RUN useradd -ms /bin/bash monero
 USER monero
